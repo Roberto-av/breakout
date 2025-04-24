@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Breakout Arcade</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="arcade-cabinet">
+      <div class="marquee">
+        <h1 id="nivel-titulo">BREAKOUT - NIVEL 1</h1>
+      </div>
+      <div id="screen">
+        <div id="game-container"></div>
+        <div id="score-text">Puntos: 0</div>
+        <div id="lives-container"></div>
+      </div>
+      <div class="control-panel">
+        <p>Usa A D para moverte | Espacio para lanzar</p>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+    <script src="js/Paddle.js"></script>
+    <script src="js/Ball.js"></script>
+    <script src="js/Block.js"></script>
+    <script src="js/Level.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="js/sketch.js"></script>
+  </body>
+</html>
