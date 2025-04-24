@@ -3,7 +3,7 @@ let movingLeft = false;
 let movingRight = false;
 
 function setup() {
-  let canvas = createCanvas(600, 400);
+  let canvas = createCanvas(600, 500);
   canvas.parent("game-container");
   game = new Game();
 }
